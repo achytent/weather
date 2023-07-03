@@ -22,18 +22,8 @@ body {
     border-radius: 1.5rem;
 }
 
-input{
-    border-radius: 1em;
-    border: 1px black solid;
-    height: 1.2em;
-    padding: 0.5em;
-}
-
 button {
-    border-radius: 1em;
-    border: 1px black solid;
-    width: 5em;
-    height: 2em;
+    cursor: pointer;
 }
 
 .content {
@@ -50,6 +40,10 @@ button {
     display: flex;
     align-items: center;
     font-size: 1.2rem;
+}
+
+.temperature {
+    cursor: pointer;
 }
 
 .location > img {
